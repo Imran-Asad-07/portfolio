@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+}
+span{
+    color: goldenrod;
+}
+.wrapper-one{
+    display: flex;
+}
+.wrapper-two{
+    display: flex;
+}
+.half{
+    width: 50%;
+    margin: 20px 20px 20px 60px;
+    
+    
+}
+img{
+    width: 80%;
+    height: 80%;
+    
+}
+.hire{
+    text-decoration: none;
+    background-image: linear-gradient(goldenrod,tomato);
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.wrapper-one{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.wrapper-two{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
