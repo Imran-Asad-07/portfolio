@@ -38,3 +38,32 @@ img{
     background-repeat: no-repeat;
     background-position: right;
 }
+.wrapper-three{
+    display: flex;
+}
+#ex1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    box-shadow: black;
+}
+#ex2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+.half-width{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px black;
+}
+section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+footer p{
+    margin-top: 50px;
+    text-align: center;
+}
